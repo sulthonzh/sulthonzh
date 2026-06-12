@@ -23,31 +23,64 @@
 
 ---
 
-### 🚀 Open Source Projects
+I'm a software engineer from Indonesia with a deep passion for building developer tools and exploring how AI can make us more productive. I love creating things that help other developers work smarter — from log viewers to code reviewers to security scanners.
 
-| Project | Stars | Description |
-|---------|:-----:|-------------|
-| [**docker-remote-deployment-action**](https://github.com/sulthonzh/docker-remote-deployment-action) | ⭐ 8 | Deploy to remote Docker hosts from GitHub Actions · 🍴 10 forks |
-| [**logchef**](https://github.com/sulthonzh/logchef) | | JSON log viewer CLI — filter, tail, query JSON logs in terminal |
-| [**logchef-zig**](https://github.com/quadbyte/logchef-zig) | | 172KB Zig binary replacing 70MB Node.js log viewer |
-| [**TelyX**](https://github.com/sulthonzh/TelyX) | | Observability suite — logs, metrics, traces in one dashboard |
-| [**envguard**](https://github.com/sulthonzh/envguard) | | Validate .env files, detect secrets, sync configs |
-| [**dotenv-schema**](https://github.com/sulthonzh/dotenv-schema) | | Schema-first .env validation — generate types, validators, docs |
-| [**gitpanic**](https://github.com/sulthonzh/gitpanic) | | Interactive git disaster recovery — undo force-pushes, recover commits |
-| [**tsprune**](https://github.com/sulthonzh/tsprune) | | Find unused TypeScript exports — dead code detector |
-| [**depwalk**](https://github.com/sulthonzh/depwalk) | | Trace why a dependency exists in your node_modules |
-| [**webperf**](https://github.com/sulthonzh/webperf) | | Lighthouse scores & Core Web Vitals from terminal |
-| [**mcp-audit**](https://github.com/sulthonzh/mcp-audit) | | Security scanner for MCP (Model Context Protocol) servers |
-| [**dotforge**](https://github.com/sulthonzh/dotforge) | | Sync AI tool configs (.cursorrules, CLAUDE.md, AGENTS.md) across projects |
-| [**prompt-bisect**](https://github.com/sulthonzh/prompt-bisect) | | CI regression testing for AI prompts — catch behavioral drift |
-| [**tree-diff**](https://github.com/sulthonzh/tree-diff) | | Compare directory trees with content hashes |
-| [**npm-outdated-check**](https://github.com/sulthonzh/npm-outdated-check) | | CI gate for npm outdated with configurable drift limits |
-| [**idx-finance**](https://github.com/sulthonzh/idx-finance) | | TypeScript library + CLI for IDX data, zero API key needed |
-| [**sahamsignal**](https://github.com/sulthonzh/sahamsignal) | | IDX stock screener — technical signals & fundamental data |
-| [**stokku**](https://github.com/sulthonzh/stokku) | | Portfolio tracker for Indonesian Stock Exchange |
-| [**tokowrite**](https://github.com/sulthonzh/tokowrite) | | AI product description optimizer for Tokopedia/Shopee/Bukalapak |
-| [**rupiahtrack**](https://github.com/sulthonzh/rupiahtrack) | | Personal finance tracker — budgeting in IDR |
-| [**ai-untuk-umkm**](https://github.com/sulthonzh/ai-untuk-umkm) | | AI consulting tools for Indonesian SMEs |
+Over the past 12 years on GitHub, I've built and maintained open source tools used by developers around the world. When I find myself repeating a task, I build a tool for it. When existing tools feel too heavy, I rewrite them lighter.
+
+---
+
+### What I'm Focused On
+
+**AI-Powered Development** — I built an [AI code reviewer](https://github.com/sulthonzh/code-reviewer) that runs across 240+ repositories, handling security scanning, quality gates, and auto-merge. This taught me a lot about integrating AI into real engineering workflows.
+
+**Developer Tooling** — I believe great tools should be invisible. Fast, focused, and get out of your way. That's why I wrote [logchef](https://github.com/sulthonzh/logchef) as a lightweight JSON log viewer, then rewrote it in Zig as [logchef-zig](https://github.com/quadbyte/logchef-zig) — 172KB replacing a 70MB Node.js app.
+
+**Fintech for Indonesia** — I'm passionate about making financial tools accessible for Indonesian developers and investors. Projects like [idx-finance](https://github.com/sulthonzh/idx-finance) (IDX data library, no API key needed) and [sahamsignal](https://github.com/sulthonzh/sahamsignal) (stock screener) are built with this mission in mind.
+
+---
+
+### Open Source Projects
+
+**DevOps & Deployment**
+
+| | Project | Description |
+|---|---------|-------------|
+| 🐳 | [**docker-remote-deployment-action**](https://github.com/sulthonzh/docker-remote-deployment-action) ⭐ 8 🍴 10 | Deploy to remote Docker hosts from GitHub Actions |
+| 🔐 | [**envguard**](https://github.com/sulthonzh/envguard) | Validate .env files, detect secrets, sync configs |
+| 📋 | [**dotenv-schema**](https://github.com/sulthonzh/dotenv-schema) | Schema-first .env validation — generate types, validators, docs |
+| 🚨 | [**gitpanic**](https://github.com/sulthonzh/gitpanic) | Interactive git disaster recovery — undo mistakes, recover commits |
+| 🛡️ | [**mcp-audit**](https://github.com/sulthonzh/mcp-audit) | Security scanner for MCP (Model Context Protocol) servers |
+
+**Developer Experience**
+
+| | Project | Description |
+|---|---------|-------------|
+| 🔍 | [**logchef**](https://github.com/sulthonzh/logchef) | JSON log viewer CLI — filter, tail, query in terminal |
+| ⚡ | [**logchef-zig**](https://github.com/quadbyte/logchef-zig) | 172KB Zig rewrite — same power, 400x smaller |
+| 📊 | [**TelyX**](https://github.com/sulthonzh/TelyX) | Observability suite — logs, metrics, traces in one dashboard |
+| 🧹 | [**tsprune**](https://github.com/sulthonzh/tsprune) | Find unused TypeScript exports — dead code detector |
+| 📦 | [**depwalk**](https://github.com/sulthonzh/depwalk) | Trace why a dependency exists in your node_modules |
+| ⚙️ | [**dotforge**](https://github.com/sulthonzh/dotforge) | Sync AI tool configs (.cursorrules, CLAUDE.md, AGENTS.md) across projects |
+
+**Testing & Performance**
+
+| | Project | Description |
+|---|---------|-------------|
+| 🧪 | [**prompt-bisect**](https://github.com/sulthonzh/prompt-bisect) | CI regression testing for AI prompts — catch behavioral drift |
+| 🌐 | [**webperf**](https://github.com/sulthonzh/webperf) | Lighthouse scores & Core Web Vitals from terminal |
+| 🌳 | [**tree-diff**](https://github.com/sulthonzh/tree-diff) | Compare directory trees with content hashes |
+| 📈 | [**npm-outdated-check**](https://github.com/sulthonzh/npm-outdated-check) | CI gate for npm outdated with configurable drift limits |
+
+**Fintech · Indonesia 🇮🇩**
+
+| | Project | Description |
+|---|---------|-------------|
+| 📊 | [**idx-finance**](https://github.com/sulthonzh/idx-finance) | TypeScript library + CLI for IDX data, zero API key |
+| 📈 | [**sahamsignal**](https://github.com/sulthonzh/sahamsignal) | IDX stock screener — technical signals & fundamentals |
+| 💼 | [**stokku**](https://github.com/sulthonzh/stokku) | Portfolio tracker for Indonesian Stock Exchange |
+| 🛒 | [**tokowrite**](https://github.com/sulthonzh/tokowrite) | AI product descriptions for Tokopedia/Shopee/Bukalapak |
+| 💰 | [**rupiahtrack**](https://github.com/sulthonzh/rupiahtrack) | Personal finance tracker — budgeting in IDR |
+| 🏪 | [**ai-untuk-umkm**](https://github.com/sulthonzh/ai-untuk-umkm) | AI consulting tools for Indonesian SMEs |
 
 ---
 
