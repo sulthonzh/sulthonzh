@@ -23,68 +23,72 @@
 
 ---
 
-I'm a software engineer from Indonesia with a deep passion for building developer tools and exploring how AI can make us more productive. I love creating things that help other developers work smarter — from log viewers to code reviewers to security scanners.
+I've been writing code for over a decade. I started on GitHub in 2013 and never really stopped.
 
-Over the past 12 years on GitHub, I've built and maintained open source tools used by developers around the world. When I find myself repeating a task, I build a tool for it. When existing tools feel too heavy, I rewrite them lighter.
+What drives me is simple — I hate doing repetitive work. Every time I catch myself doing something manually more than twice, I build a tool for it. That's how most of my open source projects were born. Not from grand plans, but from real frustrations.
 
----
+These days I spend most of my time at the intersection of AI and developer tooling. I run an AI code reviewer across 240+ repositories and manage a fleet of 56 autonomous cron jobs that handle everything from code reviews to deployments. It's been a wild ride figuring out how to make AI actually useful in production, not just in demos.
 
-### What I'm Focused On
-
-**AI-Powered Development** — I built an [AI code reviewer](https://github.com/sulthonzh/code-reviewer) that runs across 240+ repositories, handling security scanning, quality gates, and auto-merge. This taught me a lot about integrating AI into real engineering workflows.
-
-**Developer Tooling** — I believe great tools should be invisible. Fast, focused, and get out of your way. That's why I wrote [logchef](https://github.com/sulthonzh/logchef) as a lightweight JSON log viewer, then rewrote it in Zig as [logchef-zig](https://github.com/quadbyte/logchef-zig) — 172KB replacing a 70MB Node.js app.
-
-**Fintech for Indonesia** — I'm passionate about making financial tools accessible for Indonesian developers and investors. Projects like [idx-finance](https://github.com/sulthonzh/idx-finance) (IDX data library, no API key needed) and [sahamsignal](https://github.com/sulthonzh/sahamsignal) (stock screener) are built with this mission in mind.
+I also care deeply about making financial tools accessible in Indonesia. The Indonesian stock market (IDX) is growing fast, but the tooling for developers and retail investors is still painfully limited. So I'm building what I wish existed.
 
 ---
 
-### Open Source Projects
+### My Open Source Work
 
-**DevOps & Deployment**
+**The projects people actually use**
 
-| | Project | Description |
-|---|---------|-------------|
-| 🐳 | [**docker-remote-deployment-action**](https://github.com/sulthonzh/docker-remote-deployment-action) ⭐ 8 🍴 10 | Deploy to remote Docker hosts from GitHub Actions |
-| 🔐 | [**envguard**](https://github.com/sulthonzh/envguard) | Validate .env files, detect secrets, sync configs |
-| 📋 | [**dotenv-schema**](https://github.com/sulthonzh/dotenv-schema) | Schema-first .env validation — generate types, validators, docs |
-| 🚨 | [**gitpanic**](https://github.com/sulthonzh/gitpanic) | Interactive git disaster recovery — undo mistakes, recover commits |
-| 🛡️ | [**mcp-audit**](https://github.com/sulthonzh/mcp-audit) | Security scanner for MCP (Model Context Protocol) servers |
+[**docker-remote-deployment-action**](https://github.com/sulthonzh/docker-remote-deployment-action) — ⭐ 8 · 🍴 10 forks
+Deploy to remote Docker hosts straight from GitHub Actions. This was born from a real need — I was tired of manual SSH deployments every time I pushed to main. Now it's used by other teams too.
 
-**Developer Experience**
+**Dev tools I built because existing ones annoyed me**
 
-| | Project | Description |
-|---|---------|-------------|
-| 🔍 | [**logchef**](https://github.com/sulthonzh/logchef) | JSON log viewer CLI — filter, tail, query in terminal |
-| ⚡ | [**logchef-zig**](https://github.com/quadbyte/logchef-zig) | 172KB Zig rewrite — same power, 400x smaller |
-| 📊 | [**TelyX**](https://github.com/sulthonzh/TelyX) | Observability suite — logs, metrics, traces in one dashboard |
-| 🧹 | [**tsprune**](https://github.com/sulthonzh/tsprune) | Find unused TypeScript exports — dead code detector |
-| 📦 | [**depwalk**](https://github.com/sulthonzh/depwalk) | Trace why a dependency exists in your node_modules |
-| ⚙️ | [**dotforge**](https://github.com/sulthonzh/dotforge) | Sync AI tool configs (.cursorrules, CLAUDE.md, AGENTS.md) across projects |
+[**logchef**](https://github.com/sulthonzh/logchef) — I was debugging JSON logs at 2 AM and couldn't find a simple viewer that just worked. So I built one. Filter, tail, query — right in the terminal.
 
-**Testing & Performance**
+[**logchef-zig**](https://github.com/quadbyte/logchef-zig) — Then I got annoyed that logchef needed Node.js. Rewrote it in Zig. 172KB binary. Same functionality. 400x smaller.
 
-| | Project | Description |
-|---|---------|-------------|
-| 🧪 | [**prompt-bisect**](https://github.com/sulthonzh/prompt-bisect) | CI regression testing for AI prompts — catch behavioral drift |
-| 🌐 | [**webperf**](https://github.com/sulthonzh/webperf) | Lighthouse scores & Core Web Vitals from terminal |
-| 🌳 | [**tree-diff**](https://github.com/sulthonzh/tree-diff) | Compare directory trees with content hashes |
-| 📈 | [**npm-outdated-check**](https://github.com/sulthonzh/npm-outdated-check) | CI gate for npm outdated with configurable drift limits |
+[**envguard**](https://github.com/sulthonzh/envguard) — After one too many "it works on my machine" moments caused by mismatched .env files.
 
-**Fintech · Indonesia 🇮🇩**
+[**dotenv-schema**](https://github.com/sulthonzh/dotenv-schema) — Took envguard further. Define your env schema once, generate types, validators, and docs from it.
 
-| | Project | Description |
-|---|---------|-------------|
-| 📊 | [**idx-finance**](https://github.com/sulthonzh/idx-finance) | TypeScript library + CLI for IDX data, zero API key |
-| 📈 | [**sahamsignal**](https://github.com/sulthonzh/sahamsignal) | IDX stock screener — technical signals & fundamentals |
-| 💼 | [**stokku**](https://github.com/sulthonzh/stokku) | Portfolio tracker for Indonesian Stock Exchange |
-| 🛒 | [**tokowrite**](https://github.com/sulthonzh/tokowrite) | AI product descriptions for Tokopedia/Shopee/Bukalapak |
-| 💰 | [**rupiahtrack**](https://github.com/sulthonzh/rupiahtrack) | Personal finance tracker — budgeting in IDR |
-| 🏪 | [**ai-untuk-umkm**](https://github.com/sulthonzh/ai-untuk-umkm) | AI consulting tools for Indonesian SMEs |
+[**gitpanic**](https://github.com/sulthonzh/gitpanic) — Because everyone has that moment after a force push where your heart stops. This tool helps you recover.
+
+[**tsprune**](https://github.com/sulthonzh/tsprune) — Dead TypeScript export detector. I kept finding unused exports in large codebases and wanted an automated way to clean them up.
+
+[**depwalk**](https://github.com/sulthonzh/depwalk) — Ever wondered why some random package is in your node_modules? This traces the full dependency chain.
+
+[**TelyX**](https://github.com/sulthonzh/TelyX) — An observability dashboard that puts logs, metrics, and traces in one place. Built because existing solutions were either too expensive or too complex.
+
+[**mcp-audit**](https://github.com/sulthonzh/mcp-audit) — Security scanner for MCP servers. As AI tools started connecting to everything, I wanted to know what they could actually access.
+
+[**dotforge**](https://github.com/sulthonzh/dotforge) — Sync .cursorrules, CLAUDE.md, AGENTS.md across all your projects. Because copy-pasting config files is not a strategy.
+
+**Testing & CI tools**
+
+[**prompt-bisect**](https://github.com/sulthonzh/prompt-bisect) — Regression testing for AI prompts. When your prompt works today but breaks tomorrow, this catches it.
+
+[**webperf**](https://github.com/sulthonzh/webperf) — Run Lighthouse and get Core Web Vitals from the terminal. Quick checks without opening a browser.
+
+[**tree-diff**](https://github.com/sulthonzh/tree-diff) — Compare two directory trees. Useful for verifying builds and detecting unexpected changes.
+
+[**npm-outdated-check**](https://github.com/sulthonzh/npm-outdated-check) — A CI gate that fails your pipeline when dependencies drift too far. Configurable tolerance.
+
+**Fintech for Indonesia 🇮🇩**
+
+[**idx-finance**](https://github.com/sulthonzh/idx-finance) — TypeScript library and CLI for Indonesian Stock Exchange data. No API key needed because it shouldn't be hard to access public market data.
+
+[**sahamsignal**](https://github.com/sulthonzh/sahamsignal) — IDX stock screener with technical signals and fundamental data. Built for retail investors who want data-driven decisions.
+
+[**stokku**](https://github.com/sulthonzh/stokku) — Portfolio tracker for IDX. Track what you own, see how it performs.
+
+[**tokowrite**](https://github.com/sulthonzh/tokowrite) — AI-powered product descriptions for Tokopedia, Shopee, and Bukalapak. Because writing 500 product descriptions by hand is not fun.
+
+[**rupiahtrack**](https://github.com/sulthonzh/rupiahtrack) — Personal finance tracker built for Indonesian Rupiah. Budgeting should be simple.
+
+[**ai-untuk-umkm**](https://github.com/sulthonzh/ai-untuk-umkm) — AI consulting tools for Indonesian small businesses. Making AI accessible beyond tech companies.
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Activity
 
 <p align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=sulthonzh&show_icons=true&theme=github_dark&include_all_commits=true&hide_border=true" />
