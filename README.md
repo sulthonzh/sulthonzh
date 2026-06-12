@@ -23,23 +23,41 @@
 
 ### 🚀 Open Source Projects
 
-**The ones people use**
+**DevOps & Security**
 
-[**docker-remote-deployment-action**](https://github.com/sulthonzh/docker-remote-deployment-action) — Deploy to remote Docker from GitHub Actions · ⭐ 8 · 🍴 10 forks
+[**docker-remote-deployment-action**](https://github.com/sulthonzh/docker-remote-deployment-action) — Deploy to remote Docker from GitHub Actions
+[**envguard**](https://github.com/sulthonzh/envguard) — .env validation, secret detection, config sync
+[**dotenv-schema**](https://github.com/sulthonzh/dotenv-schema) — Schema-first .env validation → types, validators, docs
+[**mcp-audit**](https://github.com/sulthonzh/mcp-audit) — Security scanner for MCP servers
 
-**Dev tools I built because existing ones annoyed me**
+**Logging & Observability**
 
-| | | |
-|---|---|---|
-| [**logchef**](https://github.com/sulthonzh/logchef) — JSON log viewer CLI | [**logchef-zig**](https://github.com/quadbyte/logchef-zig) — 172KB Zig rewrite | [**TelyX**](https://github.com/sulthonzh/TelyX) — Observability dashboard |
-| [**envguard**](https://github.com/sulthonzh/envguard) — .env validation & secrets | [**dotenv-schema**](https://github.com/sulthonzh/dotenv-schema) — Schema-first env types | [**gitpanic**](https://github.com/sulthonzh/gitpanic) — Undo force-pushes |
-| [**tsprune**](https://github.com/sulthonzh/tsprune) — Dead export detector | [**depwalk**](https://github.com/sulthonzh/depwalk) — Dependency tracer | [**tree-diff**](https://github.com/sulthonzh/tree-diff) — Directory comparison |
-| [**mcp-audit**](https://github.com/sulthonzh/mcp-audit) — MCP security scanner | [**dotforge**](https://github.com/sulthonzh/dotforge) — AI config sync | [**webperf**](https://github.com/sulthonzh/webperf) — Lighthouse from terminal |
-| [**prompt-bisect**](https://github.com/sulthonzh/prompt-bisect) — AI prompt regression | [**npm-outdated-check**](https://github.com/sulthonzh/npm-outdated-check) — Dependency drift gate | |
+[**logchef**](https://github.com/sulthonzh/logchef) — JSON log viewer CLI · filter, tail, query in terminal
+[**logchef-zig**](https://github.com/quadbyte/logchef-zig) — Same tool, rewritten in Zig · 172KB replacing 70MB
+[**TelyX**](https://github.com/sulthonzh/TelyX) — Logs, metrics, traces in one dashboard
+
+**Code Quality & DX**
+
+[**gitpanic**](https://github.com/sulthonzh/gitpanic) — Undo force-pushes, recover lost commits
+[**tsprune**](https://github.com/sulthonzh/tsprune) — Find unused TypeScript exports
+[**depwalk**](https://github.com/sulthonzh/depwalk) — Trace why a dependency exists in your node_modules
+[**tree-diff**](https://github.com/sulthonzh/tree-diff) — Compare directory trees with content hashes
+[**dotforge**](https://github.com/sulthonzh/dotforge) — Sync AI tool configs across projects
+
+**Testing & Performance**
+
+[**prompt-bisect**](https://github.com/sulthonzh/prompt-bisect) — CI regression testing for AI prompts
+[**webperf**](https://github.com/sulthonzh/webperf) — Lighthouse scores & Core Web Vitals from terminal
+[**npm-outdated-check**](https://github.com/sulthonzh/npm-outdated-check) — CI gate for dependency drift
 
 **Fintech · Indonesia 🇮🇩**
 
-[**idx-finance**](https://github.com/sulthonzh/idx-finance) — IDX market data, zero API key · [**sahamsignal**](https://github.com/sulthonzh/sahamsignal) — Stock screener · [**stokku**](https://github.com/sulthonzh/stokku) — Portfolio tracker · [**tokowrite**](https://github.com/sulthonzh/tokowrite) · [**rupiahtrack**](https://github.com/sulthonzh/rupiahtrack) · [**ai-untuk-umkm**](https://github.com/sulthonzh/ai-untuk-umkm)
+[**idx-finance**](https://github.com/sulthonzh/idx-finance) — IDX market data library, zero API key
+[**sahamsignal**](https://github.com/sulthonzh/sahamsignal) — Stock screener with technical signals & fundamentals
+[**stokku**](https://github.com/sulthonzh/stokku) — Portfolio tracker for Indonesian Stock Exchange
+[**tokowrite**](https://github.com/sulthonzh/tokowrite) — AI product descriptions for Tokopedia/Shopee/Bukalapak
+[**rupiahtrack**](https://github.com/sulthonzh/rupiahtrack) — Personal finance tracker in IDR
+[**ai-untuk-umkm**](https://github.com/sulthonzh/ai-untuk-umkm) — AI consulting tools for Indonesian SMEs
 
 ---
 
